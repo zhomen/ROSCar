@@ -255,6 +255,8 @@ sys/stat.h
 -
 linux/i2c-dev.h
 -
+i2c/smbus.h
+-
 ros/ros.h
 -
 ros/console.h
@@ -281,8 +283,6 @@ i2cpwm_board/PositionArray.h
 /home/ubuntu/catkin_ws/src/ros-i2cpwmboard/src/i2cpwm_board/PositionArray.h
 i2cpwm_board/IntValue.h
 /home/ubuntu/catkin_ws/src/ros-i2cpwmboard/src/i2cpwm_board/IntValue.h
-i2c/smbus.h
--
 
 /opt/ros/noetic/include/geometry_msgs/Twist.h
 string

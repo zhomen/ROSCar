@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(oscar_LIBRARIES ${oscar_LIBRARIES})
 
   _list_append_unique(oscar_LIBRARY_DIRS ${${oscar_dep}_LIBRARY_DIRS})
-  list(APPEND oscar_EXPORTED_TARGETS ${${oscar_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(oscar_EXPORTED_TARGETS ${${oscar_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

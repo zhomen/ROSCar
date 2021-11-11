@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(i2cpwm_board_LIBRARIES ${i2cpwm_board_LIBRARIES})
 
   _list_append_unique(i2cpwm_board_LIBRARY_DIRS ${${i2cpwm_board_dep}_LIBRARY_DIRS})
-  list(APPEND i2cpwm_board_EXPORTED_TARGETS ${${i2cpwm_board_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(i2cpwm_board_EXPORTED_TARGETS ${${i2cpwm_board_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "i2cpwm_board-msg-extras.cmake")
