@@ -470,6 +470,12 @@ oscar_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/oscar
 //Value Computed by CMake
 oscar_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/oscar
 
+//Value Computed by CMake
+roscar_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/roscar
+
+//Value Computed by CMake
+roscar_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/roscar
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 

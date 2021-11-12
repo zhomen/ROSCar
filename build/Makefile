@@ -765,19 +765,6 @@ i2cpwm_board_generate_messages_cpp/fast:
 	$(MAKE) -f ros-i2cpwmboard/CMakeFiles/i2cpwm_board_generate_messages_cpp.dir/build.make ros-i2cpwmboard/CMakeFiles/i2cpwm_board_generate_messages_cpp.dir/build
 .PHONY : i2cpwm_board_generate_messages_cpp/fast
 
-#=============================================================================
-# Target rules for targets named _catkin_empty_exported_target
-
-# Build rule for target.
-_catkin_empty_exported_target: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	$(MAKE) -f oscar/CMakeFiles/_catkin_empty_exported_target.dir/build.make oscar/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -837,7 +824,6 @@ help:
 	@echo "... _i2cpwm_board_generate_messages_check_deps_DriveMode"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... i2cpwm_board_generate_messages_cpp"
-	@echo "... _catkin_empty_exported_target"
 .PHONY : help
 
 

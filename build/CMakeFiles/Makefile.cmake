@@ -13,18 +13,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
-  "oscar/catkin_generated/package.cmake"
   "ros-i2cpwmboard/catkin_generated/i2cpwm_board-msg-extras.cmake.develspace.in"
   "ros-i2cpwmboard/catkin_generated/i2cpwm_board-msg-extras.cmake.installspace.in"
   "ros-i2cpwmboard/catkin_generated/ordered_paths.cmake"
   "ros-i2cpwmboard/catkin_generated/package.cmake"
   "ros-i2cpwmboard/cmake/i2cpwm_board-genmsg.cmake"
+  "roscar/catkin_generated/ordered_paths.cmake"
+  "roscar/catkin_generated/package.cmake"
   "/home/ubuntu/catkin_ws/devel/share/i2cpwm_board/cmake/i2cpwm_board-msg-paths.cmake"
   "/home/ubuntu/catkin_ws/src/CMakeLists.txt"
-  "/home/ubuntu/catkin_ws/src/oscar/CMakeLists.txt"
-  "/home/ubuntu/catkin_ws/src/oscar/package.xml"
   "/home/ubuntu/catkin_ws/src/ros-i2cpwmboard/CMakeLists.txt"
   "/home/ubuntu/catkin_ws/src/ros-i2cpwmboard/package.xml"
+  "/home/ubuntu/catkin_ws/src/roscar/CMakeLists.txt"
+  "/home/ubuntu/catkin_ws/src/roscar/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -221,7 +222,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ros-i2cpwmboard/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "oscar/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "roscar/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -272,5 +273,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "ros-i2cpwmboard/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_DriveMode.dir/DependInfo.cmake"
   "ros-i2cpwmboard/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "ros-i2cpwmboard/CMakeFiles/i2cpwm_board_generate_messages_cpp.dir/DependInfo.cmake"
-  "oscar/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )
